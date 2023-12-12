@@ -1,0 +1,27 @@
+[2023-12-12 04:10:02,367] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: OpenWeather_ETL.conexion_BD manual__2023-12-12T04:09:33.823825+00:00 [queued]>
+[2023-12-12 04:10:02,421] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: OpenWeather_ETL.conexion_BD manual__2023-12-12T04:09:33.823825+00:00 [queued]>
+[2023-12-12 04:10:02,423] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-12 04:10:02,424] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-12-12 04:10:02,426] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-12 04:10:02,475] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): conexion_BD> on 2023-12-12 04:09:33.823825+00:00
+[2023-12-12 04:10:02,487] {standard_task_runner.py:52} INFO - Started process 470 to run task
+[2023-12-12 04:10:02,502] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'OpenWeather_ETL', 'conexion_BD', 'manual__2023-12-12T04:09:33.823825+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/ETL_OpenWeather.py', '--cfg-path', '/tmp/tmpt6hfiniu', '--error-file', '/tmp/tmpge6i7hg0']
+[2023-12-12 04:10:02,506] {standard_task_runner.py:80} INFO - Job 7: Subtask conexion_BD
+[2023-12-12 04:10:02,905] {task_command.py:371} INFO - Running <TaskInstance: OpenWeather_ETL.conexion_BD manual__2023-12-12T04:09:33.823825+00:00 [running]> on host 9ceec7b750bf
+[2023-12-12 04:10:03,179] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-12 04:10:03,509] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Furtado_Julio
+AIRFLOW_CTX_DAG_ID=OpenWeather_ETL
+AIRFLOW_CTX_TASK_ID=conexion_BD
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-12T04:09:33.823825+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-12T04:09:33.823825+00:00
+[2023-12-12 04:10:03,521] {logging_mixin.py:115} INFO - Conectandose a la DB en la fecha: 2023-12-12 4
+[2023-12-12 04:10:04,797] {logging_mixin.py:115} INFO - <connection object at 0x7fd74a5c1590; dsn: 'user=juliocfurtado93_coderhouse password=xxx dbname=data-engineer-database host=data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com port=5439', closed: 0>
+[2023-12-12 04:10:04,798] {logging_mixin.py:115} INFO - Conexion a RedShift exitosa!
+[2023-12-12 04:10:04,801] {python.py:173} INFO - Done. Returned value was: None
+[2023-12-12 04:10:04,866] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=OpenWeather_ETL, task_id=conexion_BD, execution_date=20231212T040933, start_date=20231212T041002, end_date=20231212T041004
+[2023-12-12 04:10:04,950] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-12-12 04:10:05,092] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

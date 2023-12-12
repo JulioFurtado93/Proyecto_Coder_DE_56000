@@ -1,0 +1,26 @@
+[2023-12-12 04:09:31,439] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: OpenWeather_ETL.extraer_data scheduled__2023-12-11T00:00:00+00:00 [queued]>
+[2023-12-12 04:09:31,479] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: OpenWeather_ETL.extraer_data scheduled__2023-12-11T00:00:00+00:00 [queued]>
+[2023-12-12 04:09:31,480] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-12 04:09:31,482] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-12-12 04:09:31,489] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-12 04:09:31,583] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): extraer_data> on 2023-12-11 00:00:00+00:00
+[2023-12-12 04:09:31,600] {standard_task_runner.py:52} INFO - Started process 444 to run task
+[2023-12-12 04:09:31,620] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'OpenWeather_ETL', 'extraer_data', 'scheduled__2023-12-11T00:00:00+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/ETL_OpenWeather.py', '--cfg-path', '/tmp/tmpshg_0mtv', '--error-file', '/tmp/tmpt_4cdcay']
+[2023-12-12 04:09:31,635] {standard_task_runner.py:80} INFO - Job 2: Subtask extraer_data
+[2023-12-12 04:09:32,124] {task_command.py:371} INFO - Running <TaskInstance: OpenWeather_ETL.extraer_data scheduled__2023-12-11T00:00:00+00:00 [running]> on host 9ceec7b750bf
+[2023-12-12 04:09:32,531] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-12 04:09:32,684] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Furtado_Julio
+AIRFLOW_CTX_DAG_ID=OpenWeather_ETL
+AIRFLOW_CTX_TASK_ID=extraer_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-11T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-12-11T00:00:00+00:00
+[2023-12-12 04:09:32,688] {logging_mixin.py:115} INFO - Adquiriendo data para la fecha: 2023-12-11 0
+[2023-12-12 04:09:33,907] {logging_mixin.py:115} INFO - Datos adquiridos!
+[2023-12-12 04:09:33,945] {python.py:173} INFO - Done. Returned value was: None
+[2023-12-12 04:09:34,049] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=OpenWeather_ETL, task_id=extraer_data, execution_date=20231211T000000, start_date=20231212T040931, end_date=20231212T040934
+[2023-12-12 04:09:34,144] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-12-12 04:09:34,477] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

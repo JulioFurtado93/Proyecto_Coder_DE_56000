@@ -1,0 +1,438 @@
+[2023-12-12 04:00:37,996] {processor.py:153} INFO - Started process (PID=169) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:00:37,998] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:00:38,000] {logging_mixin.py:115} INFO - [2023-12-12 04:00:38,000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:00:44,027] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:00:44,398] {logging_mixin.py:115} INFO - [2023-12-12 04:00:44,398] {manager.py:508} INFO - Created Permission View: can delete on DAG:OpenWeather_ETL
+[2023-12-12 04:00:44,453] {logging_mixin.py:115} INFO - [2023-12-12 04:00:44,453] {manager.py:508} INFO - Created Permission View: can edit on DAG:OpenWeather_ETL
+[2023-12-12 04:00:44,490] {logging_mixin.py:115} INFO - [2023-12-12 04:00:44,490] {manager.py:508} INFO - Created Permission View: can read on DAG:OpenWeather_ETL
+[2023-12-12 04:00:44,493] {logging_mixin.py:115} INFO - [2023-12-12 04:00:44,492] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:00:44,538] {logging_mixin.py:115} INFO - [2023-12-12 04:00:44,538] {dag.py:2439} INFO - Creating ORM DAG for OpenWeather_ETL
+[2023-12-12 04:00:44,604] {logging_mixin.py:115} INFO - [2023-12-12 04:00:44,604] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:00:44,654] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 6.674 seconds
+[2023-12-12 04:00:54,961] {processor.py:153} INFO - Started process (PID=175) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:00:54,965] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:00:54,968] {logging_mixin.py:115} INFO - [2023-12-12 04:00:54,967] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:00:57,783] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:00:57,848] {logging_mixin.py:115} INFO - [2023-12-12 04:00:57,846] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:00:57,981] {logging_mixin.py:115} INFO - [2023-12-12 04:00:57,980] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:00:58,030] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 3.095 seconds
+[2023-12-12 04:01:08,572] {processor.py:153} INFO - Started process (PID=181) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:01:08,577] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:01:08,583] {logging_mixin.py:115} INFO - [2023-12-12 04:01:08,583] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:01:12,264] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:01:12,411] {logging_mixin.py:115} INFO - [2023-12-12 04:01:12,398] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:01:12,552] {logging_mixin.py:115} INFO - [2023-12-12 04:01:12,552] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:01:12,612] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 4.063 seconds
+[2023-12-12 04:01:22,832] {processor.py:153} INFO - Started process (PID=187) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:01:22,833] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:01:22,837] {logging_mixin.py:115} INFO - [2023-12-12 04:01:22,837] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:01:24,036] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:01:24,081] {logging_mixin.py:115} INFO - [2023-12-12 04:01:24,080] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:01:24,130] {logging_mixin.py:115} INFO - [2023-12-12 04:01:24,130] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:01:24,155] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.332 seconds
+[2023-12-12 04:01:34,343] {processor.py:153} INFO - Started process (PID=193) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:01:34,346] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:01:34,349] {logging_mixin.py:115} INFO - [2023-12-12 04:01:34,348] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:01:35,257] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:01:35,308] {logging_mixin.py:115} INFO - [2023-12-12 04:01:35,307] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:01:35,373] {logging_mixin.py:115} INFO - [2023-12-12 04:01:35,372] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:01:35,404] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.073 seconds
+[2023-12-12 04:01:45,601] {processor.py:153} INFO - Started process (PID=199) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:01:45,603] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:01:45,605] {logging_mixin.py:115} INFO - [2023-12-12 04:01:45,605] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:01:46,639] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:01:46,731] {logging_mixin.py:115} INFO - [2023-12-12 04:01:46,730] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:01:46,800] {logging_mixin.py:115} INFO - [2023-12-12 04:01:46,799] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:01:46,832] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.240 seconds
+[2023-12-12 04:01:57,001] {processor.py:153} INFO - Started process (PID=205) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:01:57,003] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:01:57,005] {logging_mixin.py:115} INFO - [2023-12-12 04:01:57,005] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:01:58,312] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:01:58,375] {logging_mixin.py:115} INFO - [2023-12-12 04:01:58,374] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:01:58,439] {logging_mixin.py:115} INFO - [2023-12-12 04:01:58,439] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:01:58,464] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.474 seconds
+[2023-12-12 04:02:08,620] {processor.py:153} INFO - Started process (PID=211) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:02:08,622] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:02:08,624] {logging_mixin.py:115} INFO - [2023-12-12 04:02:08,624] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:02:09,908] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:02:09,952] {logging_mixin.py:115} INFO - [2023-12-12 04:02:09,951] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:02:10,002] {logging_mixin.py:115} INFO - [2023-12-12 04:02:10,002] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:02:10,027] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.420 seconds
+[2023-12-12 04:02:20,185] {processor.py:153} INFO - Started process (PID=217) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:02:20,187] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:02:20,189] {logging_mixin.py:115} INFO - [2023-12-12 04:02:20,188] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:02:21,164] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:02:21,234] {logging_mixin.py:115} INFO - [2023-12-12 04:02:21,233] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:02:21,282] {logging_mixin.py:115} INFO - [2023-12-12 04:02:21,282] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:02:21,308] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.131 seconds
+[2023-12-12 04:02:31,473] {processor.py:153} INFO - Started process (PID=223) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:02:31,475] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:02:31,477] {logging_mixin.py:115} INFO - [2023-12-12 04:02:31,477] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:02:32,385] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:02:32,432] {logging_mixin.py:115} INFO - [2023-12-12 04:02:32,430] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:02:32,501] {logging_mixin.py:115} INFO - [2023-12-12 04:02:32,501] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:02:32,536] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.072 seconds
+[2023-12-12 04:02:42,686] {processor.py:153} INFO - Started process (PID=229) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:02:42,688] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:02:42,690] {logging_mixin.py:115} INFO - [2023-12-12 04:02:42,689] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:02:43,674] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:02:43,730] {logging_mixin.py:115} INFO - [2023-12-12 04:02:43,729] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:02:43,782] {logging_mixin.py:115} INFO - [2023-12-12 04:02:43,782] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:02:43,808] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.130 seconds
+[2023-12-12 04:02:53,979] {processor.py:153} INFO - Started process (PID=235) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:02:53,981] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:02:53,983] {logging_mixin.py:115} INFO - [2023-12-12 04:02:53,983] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:02:54,990] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:02:55,046] {logging_mixin.py:115} INFO - [2023-12-12 04:02:55,045] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:02:55,109] {logging_mixin.py:115} INFO - [2023-12-12 04:02:55,109] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:02:55,136] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.165 seconds
+[2023-12-12 04:03:05,309] {processor.py:153} INFO - Started process (PID=241) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:03:05,311] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:03:05,313] {logging_mixin.py:115} INFO - [2023-12-12 04:03:05,312] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:03:06,356] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:03:06,401] {logging_mixin.py:115} INFO - [2023-12-12 04:03:06,400] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:03:06,451] {logging_mixin.py:115} INFO - [2023-12-12 04:03:06,451] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:03:06,479] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.180 seconds
+[2023-12-12 04:03:16,637] {processor.py:153} INFO - Started process (PID=247) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:03:16,639] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:03:16,640] {logging_mixin.py:115} INFO - [2023-12-12 04:03:16,640] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:03:17,703] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:03:17,769] {logging_mixin.py:115} INFO - [2023-12-12 04:03:17,768] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:03:17,825] {logging_mixin.py:115} INFO - [2023-12-12 04:03:17,825] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:03:17,851] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.223 seconds
+[2023-12-12 04:03:28,022] {processor.py:153} INFO - Started process (PID=253) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:03:28,024] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:03:28,026] {logging_mixin.py:115} INFO - [2023-12-12 04:03:28,026] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:03:29,077] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:03:29,144] {logging_mixin.py:115} INFO - [2023-12-12 04:03:29,143] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:03:29,209] {logging_mixin.py:115} INFO - [2023-12-12 04:03:29,208] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:03:29,233] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.220 seconds
+[2023-12-12 04:03:39,377] {processor.py:153} INFO - Started process (PID=259) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:03:39,379] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:03:39,381] {logging_mixin.py:115} INFO - [2023-12-12 04:03:39,381] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:03:40,541] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:03:40,595] {logging_mixin.py:115} INFO - [2023-12-12 04:03:40,594] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:03:40,662] {logging_mixin.py:115} INFO - [2023-12-12 04:03:40,662] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:03:40,697] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.332 seconds
+[2023-12-12 04:03:50,856] {processor.py:153} INFO - Started process (PID=265) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:03:50,858] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:03:50,860] {logging_mixin.py:115} INFO - [2023-12-12 04:03:50,859] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:03:51,807] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:03:51,870] {logging_mixin.py:115} INFO - [2023-12-12 04:03:51,869] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:03:51,922] {logging_mixin.py:115} INFO - [2023-12-12 04:03:51,921] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:03:51,946] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.099 seconds
+[2023-12-12 04:04:02,142] {processor.py:153} INFO - Started process (PID=271) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:04:02,144] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:04:02,146] {logging_mixin.py:115} INFO - [2023-12-12 04:04:02,146] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:04:03,036] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:04:03,073] {logging_mixin.py:115} INFO - [2023-12-12 04:04:03,072] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:04:03,117] {logging_mixin.py:115} INFO - [2023-12-12 04:04:03,117] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:04:03,140] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.007 seconds
+[2023-12-12 04:04:13,305] {processor.py:153} INFO - Started process (PID=277) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:04:13,307] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:04:13,309] {logging_mixin.py:115} INFO - [2023-12-12 04:04:13,309] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:04:14,259] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:04:14,298] {logging_mixin.py:115} INFO - [2023-12-12 04:04:14,298] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:04:14,344] {logging_mixin.py:115} INFO - [2023-12-12 04:04:14,344] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:04:14,369] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.071 seconds
+[2023-12-12 04:04:24,508] {processor.py:153} INFO - Started process (PID=283) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:04:24,512] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:04:24,516] {logging_mixin.py:115} INFO - [2023-12-12 04:04:24,515] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:04:25,356] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:04:25,395] {logging_mixin.py:115} INFO - [2023-12-12 04:04:25,395] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:04:25,440] {logging_mixin.py:115} INFO - [2023-12-12 04:04:25,440] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:04:25,467] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 0.976 seconds
+[2023-12-12 04:04:35,585] {processor.py:153} INFO - Started process (PID=289) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:04:35,587] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:04:35,589] {logging_mixin.py:115} INFO - [2023-12-12 04:04:35,589] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:04:36,469] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:04:36,507] {logging_mixin.py:115} INFO - [2023-12-12 04:04:36,507] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:04:36,551] {logging_mixin.py:115} INFO - [2023-12-12 04:04:36,551] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:04:36,574] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.000 seconds
+[2023-12-12 04:04:46,729] {processor.py:153} INFO - Started process (PID=295) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:04:46,731] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:04:46,733] {logging_mixin.py:115} INFO - [2023-12-12 04:04:46,733] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:04:47,678] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:04:47,719] {logging_mixin.py:115} INFO - [2023-12-12 04:04:47,718] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:04:47,762] {logging_mixin.py:115} INFO - [2023-12-12 04:04:47,761] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:04:47,785] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.063 seconds
+[2023-12-12 04:04:57,928] {processor.py:153} INFO - Started process (PID=301) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:04:57,930] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:04:57,932] {logging_mixin.py:115} INFO - [2023-12-12 04:04:57,932] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:04:58,684] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:04:58,724] {logging_mixin.py:115} INFO - [2023-12-12 04:04:58,723] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:04:58,770] {logging_mixin.py:115} INFO - [2023-12-12 04:04:58,770] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:04:58,796] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 0.876 seconds
+[2023-12-12 04:05:08,921] {processor.py:153} INFO - Started process (PID=307) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:05:08,923] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:05:08,925] {logging_mixin.py:115} INFO - [2023-12-12 04:05:08,924] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:05:09,845] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:05:09,884] {logging_mixin.py:115} INFO - [2023-12-12 04:05:09,883] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:05:09,929] {logging_mixin.py:115} INFO - [2023-12-12 04:05:09,929] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:05:09,952] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.038 seconds
+[2023-12-12 04:05:20,124] {processor.py:153} INFO - Started process (PID=313) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:05:20,126] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:05:20,127] {logging_mixin.py:115} INFO - [2023-12-12 04:05:20,127] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:05:20,872] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:05:20,913] {logging_mixin.py:115} INFO - [2023-12-12 04:05:20,912] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:05:20,956] {logging_mixin.py:115} INFO - [2023-12-12 04:05:20,956] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:05:20,980] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 0.863 seconds
+[2023-12-12 04:05:31,123] {processor.py:153} INFO - Started process (PID=319) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:05:31,125] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:05:31,127] {logging_mixin.py:115} INFO - [2023-12-12 04:05:31,127] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:05:31,965] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:05:32,003] {logging_mixin.py:115} INFO - [2023-12-12 04:05:32,002] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:05:32,046] {logging_mixin.py:115} INFO - [2023-12-12 04:05:32,046] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:05:32,070] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 0.955 seconds
+[2023-12-12 04:05:42,291] {processor.py:153} INFO - Started process (PID=325) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:05:42,293] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:05:42,295] {logging_mixin.py:115} INFO - [2023-12-12 04:05:42,295] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:05:43,250] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:05:43,291] {logging_mixin.py:115} INFO - [2023-12-12 04:05:43,290] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:05:43,333] {logging_mixin.py:115} INFO - [2023-12-12 04:05:43,333] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:05:43,356] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.073 seconds
+[2023-12-12 04:05:53,526] {processor.py:153} INFO - Started process (PID=331) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:05:53,528] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:05:53,529] {logging_mixin.py:115} INFO - [2023-12-12 04:05:53,529] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:05:54,287] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:05:54,324] {logging_mixin.py:115} INFO - [2023-12-12 04:05:54,323] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:05:54,368] {logging_mixin.py:115} INFO - [2023-12-12 04:05:54,367] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:05:54,390] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 0.873 seconds
+[2023-12-12 04:06:04,515] {processor.py:153} INFO - Started process (PID=337) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:06:04,517] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:06:04,519] {logging_mixin.py:115} INFO - [2023-12-12 04:06:04,518] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:06:05,246] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:06:05,285] {logging_mixin.py:115} INFO - [2023-12-12 04:06:05,284] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:06:05,327] {logging_mixin.py:115} INFO - [2023-12-12 04:06:05,327] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:06:05,352] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 0.844 seconds
+[2023-12-12 04:06:15,526] {processor.py:153} INFO - Started process (PID=343) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:06:15,528] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:06:15,530] {logging_mixin.py:115} INFO - [2023-12-12 04:06:15,530] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:06:16,402] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:06:16,459] {logging_mixin.py:115} INFO - [2023-12-12 04:06:16,458] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:06:16,514] {logging_mixin.py:115} INFO - [2023-12-12 04:06:16,514] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:06:16,536] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.023 seconds
+[2023-12-12 04:06:26,727] {processor.py:153} INFO - Started process (PID=349) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:06:26,735] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:06:26,739] {logging_mixin.py:115} INFO - [2023-12-12 04:06:26,738] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:06:29,086] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:06:29,138] {logging_mixin.py:115} INFO - [2023-12-12 04:06:29,137] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:06:29,185] {logging_mixin.py:115} INFO - [2023-12-12 04:06:29,185] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:06:29,215] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 2.509 seconds
+[2023-12-12 04:06:39,475] {processor.py:153} INFO - Started process (PID=355) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:06:39,477] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:06:39,480] {logging_mixin.py:115} INFO - [2023-12-12 04:06:39,480] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:06:40,641] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:06:40,717] {logging_mixin.py:115} INFO - [2023-12-12 04:06:40,713] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:06:40,795] {logging_mixin.py:115} INFO - [2023-12-12 04:06:40,795] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:06:40,833] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.369 seconds
+[2023-12-12 04:06:51,401] {processor.py:153} INFO - Started process (PID=361) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:06:51,405] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:06:51,408] {logging_mixin.py:115} INFO - [2023-12-12 04:06:51,408] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:06:55,544] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:06:55,664] {logging_mixin.py:115} INFO - [2023-12-12 04:06:55,664] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:06:55,776] {logging_mixin.py:115} INFO - [2023-12-12 04:06:55,765] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:06:55,841] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 4.499 seconds
+[2023-12-12 04:07:06,917] {processor.py:153} INFO - Started process (PID=367) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:07:06,919] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:07:06,921] {logging_mixin.py:115} INFO - [2023-12-12 04:07:06,921] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:07:08,468] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:07:08,524] {logging_mixin.py:115} INFO - [2023-12-12 04:07:08,523] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:07:08,639] {logging_mixin.py:115} INFO - [2023-12-12 04:07:08,638] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:07:08,749] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.843 seconds
+[2023-12-12 04:07:19,333] {processor.py:153} INFO - Started process (PID=373) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:07:19,392] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:07:19,408] {logging_mixin.py:115} INFO - [2023-12-12 04:07:19,408] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:07:21,709] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:07:21,763] {logging_mixin.py:115} INFO - [2023-12-12 04:07:21,761] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:07:21,826] {logging_mixin.py:115} INFO - [2023-12-12 04:07:21,826] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:07:21,867] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 2.571 seconds
+[2023-12-12 04:07:32,049] {processor.py:153} INFO - Started process (PID=379) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:07:32,051] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:07:32,053] {logging_mixin.py:115} INFO - [2023-12-12 04:07:32,053] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:07:33,185] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:07:33,235] {logging_mixin.py:115} INFO - [2023-12-12 04:07:33,233] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:07:33,295] {logging_mixin.py:115} INFO - [2023-12-12 04:07:33,295] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:07:33,326] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.289 seconds
+[2023-12-12 04:07:43,429] {processor.py:153} INFO - Started process (PID=385) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:07:43,431] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:07:43,434] {logging_mixin.py:115} INFO - [2023-12-12 04:07:43,434] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:07:44,789] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:07:44,869] {logging_mixin.py:115} INFO - [2023-12-12 04:07:44,866] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:07:44,933] {logging_mixin.py:115} INFO - [2023-12-12 04:07:44,932] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:07:44,965] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.549 seconds
+[2023-12-12 04:07:55,150] {processor.py:153} INFO - Started process (PID=391) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:07:55,153] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:07:55,157] {logging_mixin.py:115} INFO - [2023-12-12 04:07:55,157] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:07:56,475] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:07:56,534] {logging_mixin.py:115} INFO - [2023-12-12 04:07:56,533] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:07:56,590] {logging_mixin.py:115} INFO - [2023-12-12 04:07:56,589] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:07:56,674] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.540 seconds
+[2023-12-12 04:08:06,864] {processor.py:153} INFO - Started process (PID=397) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:08:06,868] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:08:06,872] {logging_mixin.py:115} INFO - [2023-12-12 04:08:06,871] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:08:08,426] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:08:08,488] {logging_mixin.py:115} INFO - [2023-12-12 04:08:08,486] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:08:08,570] {logging_mixin.py:115} INFO - [2023-12-12 04:08:08,570] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:08:08,599] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.749 seconds
+[2023-12-12 04:08:18,706] {processor.py:153} INFO - Started process (PID=403) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:08:18,708] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:08:18,710] {logging_mixin.py:115} INFO - [2023-12-12 04:08:18,710] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:08:20,079] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:08:20,183] {logging_mixin.py:115} INFO - [2023-12-12 04:08:20,181] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:08:20,308] {logging_mixin.py:115} INFO - [2023-12-12 04:08:20,307] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:08:20,359] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.664 seconds
+[2023-12-12 04:08:30,577] {processor.py:153} INFO - Started process (PID=409) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:08:30,581] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:08:30,583] {logging_mixin.py:115} INFO - [2023-12-12 04:08:30,583] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:08:32,205] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:08:32,284] {logging_mixin.py:115} INFO - [2023-12-12 04:08:32,282] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:08:32,374] {logging_mixin.py:115} INFO - [2023-12-12 04:08:32,374] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:08:32,427] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.862 seconds
+[2023-12-12 04:08:42,709] {processor.py:153} INFO - Started process (PID=415) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:08:42,712] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:08:42,715] {logging_mixin.py:115} INFO - [2023-12-12 04:08:42,714] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:08:44,250] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:08:44,318] {logging_mixin.py:115} INFO - [2023-12-12 04:08:44,317] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:08:44,420] {logging_mixin.py:115} INFO - [2023-12-12 04:08:44,419] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:08:44,461] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.777 seconds
+[2023-12-12 04:08:54,747] {processor.py:153} INFO - Started process (PID=421) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:08:54,753] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:08:54,758] {logging_mixin.py:115} INFO - [2023-12-12 04:08:54,758] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:08:57,110] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:08:57,247] {logging_mixin.py:115} INFO - [2023-12-12 04:08:57,235] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:08:57,537] {logging_mixin.py:115} INFO - [2023-12-12 04:08:57,537] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:08:57,637] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 2.910 seconds
+[2023-12-12 04:09:07,837] {processor.py:153} INFO - Started process (PID=427) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:09:07,840] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:09:07,846] {logging_mixin.py:115} INFO - [2023-12-12 04:09:07,845] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:09:09,291] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:09:09,404] {logging_mixin.py:115} INFO - [2023-12-12 04:09:09,397] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:09:09,503] {logging_mixin.py:115} INFO - [2023-12-12 04:09:09,502] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:09:09,537] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.721 seconds
+[2023-12-12 04:09:19,796] {processor.py:153} INFO - Started process (PID=433) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:09:19,799] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:09:19,802] {logging_mixin.py:115} INFO - [2023-12-12 04:09:19,801] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:09:21,130] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:09:21,193] {logging_mixin.py:115} INFO - [2023-12-12 04:09:21,192] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:09:21,245] {logging_mixin.py:115} INFO - [2023-12-12 04:09:21,245] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-12 04:09:21,323] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.563 seconds
+[2023-12-12 04:09:31,579] {processor.py:153} INFO - Started process (PID=441) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:09:31,582] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:09:31,587] {logging_mixin.py:115} INFO - [2023-12-12 04:09:31,587] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:09:33,476] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:09:33,527] {logging_mixin.py:115} INFO - [2023-12-12 04:09:33,526] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:09:33,593] {logging_mixin.py:115} INFO - [2023-12-12 04:09:33,592] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-12T00:00:00+00:00, run_after=2023-12-13T00:00:00+00:00
+[2023-12-12 04:09:33,623] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 2.065 seconds
+[2023-12-12 04:09:45,221] {processor.py:153} INFO - Started process (PID=454) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:09:45,250] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:09:45,267] {logging_mixin.py:115} INFO - [2023-12-12 04:09:45,267] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:09:54,880] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:09:54,987] {logging_mixin.py:115} INFO - [2023-12-12 04:09:54,985] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:09:55,139] {logging_mixin.py:115} INFO - [2023-12-12 04:09:55,138] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-12T00:00:00+00:00, run_after=2023-12-13T00:00:00+00:00
+[2023-12-12 04:09:55,198] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 10.095 seconds
+[2023-12-12 04:10:05,785] {processor.py:153} INFO - Started process (PID=472) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:10:05,805] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:10:05,813] {logging_mixin.py:115} INFO - [2023-12-12 04:10:05,813] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:10:10,586] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:10:10,640] {logging_mixin.py:115} INFO - [2023-12-12 04:10:10,640] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:10:10,739] {logging_mixin.py:115} INFO - [2023-12-12 04:10:10,739] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-12T00:00:00+00:00, run_after=2023-12-13T00:00:00+00:00
+[2023-12-12 04:10:10,834] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 5.090 seconds
+[2023-12-12 04:10:21,135] {processor.py:153} INFO - Started process (PID=481) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:10:21,138] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:10:21,140] {logging_mixin.py:115} INFO - [2023-12-12 04:10:21,140] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:10:22,779] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:10:22,825] {logging_mixin.py:115} INFO - [2023-12-12 04:10:22,824] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:10:22,875] {logging_mixin.py:115} INFO - [2023-12-12 04:10:22,875] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-12T00:00:00+00:00, run_after=2023-12-13T00:00:00+00:00
+[2023-12-12 04:10:22,903] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.782 seconds
+[2023-12-12 04:10:33,199] {processor.py:153} INFO - Started process (PID=487) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:10:33,202] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:10:33,205] {logging_mixin.py:115} INFO - [2023-12-12 04:10:33,205] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:10:34,932] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:10:35,052] {logging_mixin.py:115} INFO - [2023-12-12 04:10:35,051] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:10:35,183] {logging_mixin.py:115} INFO - [2023-12-12 04:10:35,183] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-12T00:00:00+00:00, run_after=2023-12-13T00:00:00+00:00
+[2023-12-12 04:10:35,226] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 2.054 seconds
+[2023-12-12 04:10:45,982] {processor.py:153} INFO - Started process (PID=493) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:10:45,984] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:10:45,987] {logging_mixin.py:115} INFO - [2023-12-12 04:10:45,987] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:10:47,616] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:10:47,685] {logging_mixin.py:115} INFO - [2023-12-12 04:10:47,684] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:10:47,766] {logging_mixin.py:115} INFO - [2023-12-12 04:10:47,766] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-12T00:00:00+00:00, run_after=2023-12-13T00:00:00+00:00
+[2023-12-12 04:10:47,797] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.826 seconds
+[2023-12-12 04:10:58,041] {processor.py:153} INFO - Started process (PID=499) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:10:58,044] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:10:58,048] {logging_mixin.py:115} INFO - [2023-12-12 04:10:58,047] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:10:59,628] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:10:59,699] {logging_mixin.py:115} INFO - [2023-12-12 04:10:59,698] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:10:59,821] {logging_mixin.py:115} INFO - [2023-12-12 04:10:59,820] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-12T00:00:00+00:00, run_after=2023-12-13T00:00:00+00:00
+[2023-12-12 04:10:59,880] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.856 seconds
+[2023-12-12 04:11:10,076] {processor.py:153} INFO - Started process (PID=505) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:11:10,081] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:11:10,084] {logging_mixin.py:115} INFO - [2023-12-12 04:11:10,083] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:11:11,958] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:11:12,025] {logging_mixin.py:115} INFO - [2023-12-12 04:11:12,024] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:11:12,090] {logging_mixin.py:115} INFO - [2023-12-12 04:11:12,090] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-12T00:00:00+00:00, run_after=2023-12-13T00:00:00+00:00
+[2023-12-12 04:11:12,122] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 2.057 seconds
+[2023-12-12 04:11:22,266] {processor.py:153} INFO - Started process (PID=511) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:11:22,268] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:11:22,271] {logging_mixin.py:115} INFO - [2023-12-12 04:11:22,271] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:11:23,398] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:11:23,465] {logging_mixin.py:115} INFO - [2023-12-12 04:11:23,464] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:11:23,554] {logging_mixin.py:115} INFO - [2023-12-12 04:11:23,554] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-12T00:00:00+00:00, run_after=2023-12-13T00:00:00+00:00
+[2023-12-12 04:11:23,588] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.330 seconds
+[2023-12-12 04:11:33,770] {processor.py:153} INFO - Started process (PID=517) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:11:33,772] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:11:33,774] {logging_mixin.py:115} INFO - [2023-12-12 04:11:33,774] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:11:35,151] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:11:35,199] {logging_mixin.py:115} INFO - [2023-12-12 04:11:35,198] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:11:35,300] {logging_mixin.py:115} INFO - [2023-12-12 04:11:35,300] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-12T00:00:00+00:00, run_after=2023-12-13T00:00:00+00:00
+[2023-12-12 04:11:35,343] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.585 seconds
+[2023-12-12 04:11:45,512] {processor.py:153} INFO - Started process (PID=523) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:11:45,514] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:11:45,517] {logging_mixin.py:115} INFO - [2023-12-12 04:11:45,516] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:11:49,626] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:11:49,806] {logging_mixin.py:115} INFO - [2023-12-12 04:11:49,805] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:11:50,034] {logging_mixin.py:115} INFO - [2023-12-12 04:11:50,034] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-12T00:00:00+00:00, run_after=2023-12-13T00:00:00+00:00
+[2023-12-12 04:11:50,170] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 4.675 seconds
+[2023-12-12 04:12:00,422] {processor.py:153} INFO - Started process (PID=529) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:12:00,425] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:12:00,428] {logging_mixin.py:115} INFO - [2023-12-12 04:12:00,427] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:12:01,638] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:12:01,878] {logging_mixin.py:115} INFO - [2023-12-12 04:12:01,876] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:12:02,133] {logging_mixin.py:115} INFO - [2023-12-12 04:12:02,132] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-12T00:00:00+00:00, run_after=2023-12-13T00:00:00+00:00
+[2023-12-12 04:12:02,259] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.850 seconds
+[2023-12-12 04:12:13,029] {processor.py:153} INFO - Started process (PID=535) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:12:13,032] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:12:13,046] {logging_mixin.py:115} INFO - [2023-12-12 04:12:13,045] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:12:14,900] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:12:14,944] {logging_mixin.py:115} INFO - [2023-12-12 04:12:14,943] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:12:14,995] {logging_mixin.py:115} INFO - [2023-12-12 04:12:14,995] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-12T00:00:00+00:00, run_after=2023-12-13T00:00:00+00:00
+[2023-12-12 04:12:15,027] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 2.029 seconds
+[2023-12-12 04:12:25,221] {processor.py:153} INFO - Started process (PID=541) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:12:25,223] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:12:25,225] {logging_mixin.py:115} INFO - [2023-12-12 04:12:25,225] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:12:26,287] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:12:26,338] {logging_mixin.py:115} INFO - [2023-12-12 04:12:26,337] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:12:26,415] {logging_mixin.py:115} INFO - [2023-12-12 04:12:26,414] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-12T00:00:00+00:00, run_after=2023-12-13T00:00:00+00:00
+[2023-12-12 04:12:26,448] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.236 seconds
+[2023-12-12 04:12:36,628] {processor.py:153} INFO - Started process (PID=547) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:12:36,630] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:12:36,633] {logging_mixin.py:115} INFO - [2023-12-12 04:12:36,633] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:12:37,741] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:12:37,805] {logging_mixin.py:115} INFO - [2023-12-12 04:12:37,804] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:12:37,896] {logging_mixin.py:115} INFO - [2023-12-12 04:12:37,896] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-12T00:00:00+00:00, run_after=2023-12-13T00:00:00+00:00
+[2023-12-12 04:12:37,925] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.308 seconds
+[2023-12-12 04:12:48,088] {processor.py:153} INFO - Started process (PID=553) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:12:48,090] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:12:48,092] {logging_mixin.py:115} INFO - [2023-12-12 04:12:48,092] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:12:49,285] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:12:49,340] {logging_mixin.py:115} INFO - [2023-12-12 04:12:49,339] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:12:49,389] {logging_mixin.py:115} INFO - [2023-12-12 04:12:49,389] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-12T00:00:00+00:00, run_after=2023-12-13T00:00:00+00:00
+[2023-12-12 04:12:49,415] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.336 seconds
+[2023-12-12 04:12:59,824] {processor.py:153} INFO - Started process (PID=559) to work on /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:12:59,827] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_OpenWeather.py for tasks to queue
+[2023-12-12 04:12:59,830] {logging_mixin.py:115} INFO - [2023-12-12 04:12:59,830] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:13:01,175] {processor.py:651} INFO - DAG(s) dict_keys(['OpenWeather_ETL']) retrieved from /opt/airflow/dags/ETL_OpenWeather.py
+[2023-12-12 04:13:01,238] {logging_mixin.py:115} INFO - [2023-12-12 04:13:01,237] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 04:13:01,289] {logging_mixin.py:115} INFO - [2023-12-12 04:13:01,289] {dag.py:2972} INFO - Setting next_dagrun for OpenWeather_ETL to 2023-12-12T00:00:00+00:00, run_after=2023-12-13T00:00:00+00:00
+[2023-12-12 04:13:01,314] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_OpenWeather.py took 1.514 seconds
