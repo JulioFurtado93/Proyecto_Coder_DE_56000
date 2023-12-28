@@ -1,0 +1,25 @@
+[2023-12-27 15:55:29,870] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: OpenWeather_ETL2.envio_mail manual__2023-12-27T15:50:00.342705+00:00 [queued]>
+[2023-12-27 15:55:29,896] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: OpenWeather_ETL2.envio_mail manual__2023-12-27T15:50:00.342705+00:00 [queued]>
+[2023-12-27 15:55:29,897] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-27 15:55:29,898] {taskinstance.py:1377} INFO - Starting attempt 2 of 6
+[2023-12-27 15:55:29,899] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-27 15:55:29,932] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): envio_mail> on 2023-12-27 15:50:00.342705+00:00
+[2023-12-27 15:55:29,941] {standard_task_runner.py:52} INFO - Started process 4935 to run task
+[2023-12-27 15:55:29,950] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'OpenWeather_ETL2', 'envio_mail', 'manual__2023-12-27T15:50:00.342705+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/ETL_OpenWeather2.py', '--cfg-path', '/tmp/tmpumwipxny', '--error-file', '/tmp/tmp0woa18cs']
+[2023-12-27 15:55:29,953] {standard_task_runner.py:80} INFO - Job 84: Subtask envio_mail
+[2023-12-27 15:55:30,097] {task_command.py:371} INFO - Running <TaskInstance: OpenWeather_ETL2.envio_mail manual__2023-12-27T15:50:00.342705+00:00 [running]> on host 44a36bef83ad
+[2023-12-27 15:55:30,249] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Furtado_Julio
+AIRFLOW_CTX_DAG_ID=OpenWeather_ETL2
+AIRFLOW_CTX_TASK_ID=envio_mail
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-27T15:50:00.342705+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-27T15:50:00.342705+00:00
+[2023-12-27 15:55:31,555] {logging_mixin.py:115} INFO - 'ascii' codec can't encode character '\xe9' in position 62: ordinal not in range(128)
+[2023-12-27 15:55:31,559] {logging_mixin.py:115} INFO - Failure
+[2023-12-27 15:55:31,568] {python.py:173} INFO - Done. Returned value was: None
+[2023-12-27 15:55:31,597] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=OpenWeather_ETL2, task_id=envio_mail, execution_date=20231227T155000, start_date=20231227T155529, end_date=20231227T155531
+[2023-12-27 15:55:31,652] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-12-27 15:55:31,717] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

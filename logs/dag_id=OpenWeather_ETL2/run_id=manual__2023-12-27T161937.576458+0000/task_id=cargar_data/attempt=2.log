@@ -1,0 +1,45 @@
+[2023-12-27 16:25:00,360] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: OpenWeather_ETL2.cargar_data manual__2023-12-27T16:19:37.576458+00:00 [queued]>
+[2023-12-27 16:25:00,380] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: OpenWeather_ETL2.cargar_data manual__2023-12-27T16:19:37.576458+00:00 [queued]>
+[2023-12-27 16:25:00,381] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-27 16:25:00,382] {taskinstance.py:1377} INFO - Starting attempt 2 of 6
+[2023-12-27 16:25:00,382] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-27 16:25:00,413] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cargar_data> on 2023-12-27 16:19:37.576458+00:00
+[2023-12-27 16:25:00,421] {standard_task_runner.py:52} INFO - Started process 7460 to run task
+[2023-12-27 16:25:00,429] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'OpenWeather_ETL2', 'cargar_data', 'manual__2023-12-27T16:19:37.576458+00:00', '--job-id', '94', '--raw', '--subdir', 'DAGS_FOLDER/ETL_OpenWeather2.py', '--cfg-path', '/tmp/tmpdlzie9g7', '--error-file', '/tmp/tmpfdnvtlcf']
+[2023-12-27 16:25:00,432] {standard_task_runner.py:80} INFO - Job 94: Subtask cargar_data
+[2023-12-27 16:25:00,572] {task_command.py:371} INFO - Running <TaskInstance: OpenWeather_ETL2.cargar_data manual__2023-12-27T16:19:37.576458+00:00 [running]> on host 44a36bef83ad
+[2023-12-27 16:25:00,664] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-27 16:25:00,737] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Furtado_Julio
+AIRFLOW_CTX_DAG_ID=OpenWeather_ETL2
+AIRFLOW_CTX_TASK_ID=cargar_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-27T16:19:37.576458+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-27T16:19:37.576458+00:00
+[2023-12-27 16:25:00,739] {logging_mixin.py:115} INFO - Cargando la data para la fecha: 2023-12-27 16
+[2023-12-27 16:25:00,772] {logging_mixin.py:115} INFO - (3, 18)
+[2023-12-27 16:25:00,821] {logging_mixin.py:115} INFO -                     dt          name  ...         sunrise_time          sunset_time
+0  2023-12-27 13:03:24  Buenos Aires  ...  2023-12-27 05:40:26  2023-12-27 20:08:14
+1                   dt          name  ...         sunrise_time          sunset_time
+2  2023-12-27 13:19:44  Buenos Aires  ...  2023-12-27 05:40:26  2023-12-27 20:08:14
+
+[3 rows x 18 columns]
+[2023-12-27 16:25:02,746] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ETL_OpenWeather2.py", line 190, in cargar_data
+    execute_values(cur, insert_sql, values)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/extras.py", line 1270, in execute_values
+    cur.execute(b''.join(parts))
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type double precision: "longitude"
+
+[2023-12-27 16:25:02,774] {taskinstance.py:1420} INFO - Marking task as UP_FOR_RETRY. dag_id=OpenWeather_ETL2, task_id=cargar_data, execution_date=20231227T161937, start_date=20231227T162500, end_date=20231227T162502
+[2023-12-27 16:25:02,801] {standard_task_runner.py:97} ERROR - Failed to execute job 94 for task cargar_data (invalid input syntax for type double precision: "longitude"
+; 7460)
+[2023-12-27 16:25:02,859] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-12-27 16:25:02,952] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

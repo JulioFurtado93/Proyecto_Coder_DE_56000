@@ -1,0 +1,2 @@
+dt,name,country,longitude,latitude,main,description,temp,feels_like,temp_min,temp_max,pressure,humidity,wind_speed,wind_deg,clouds,sunrise_time,sunset_time
+2023-12-19 21:34:33,Buenos Aires,AR,-58.3772,-34.6132,Clouds,muy nuboso,17.11,16.5,15.46,17.82,1020,62,4.63,140,75,2023-12-19 05:36:19,2023-12-19 20:04:39

@@ -1,0 +1,9 @@
+[2023-12-20 00:00:49,542] {processor.py:163} INFO - Started process (PID=83) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-20 00:00:49,572] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-20 00:00:49,576] {logging_mixin.py:109} INFO - [2023-12-20 00:00:49,575] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-20 00:00:55,481] {logging_mixin.py:109} INFO - [2023-12-20 00:00:55,481] {process_utils.py:237} INFO - Waiting up to 5 seconds for processes to exit...
+[2023-12-20 00:01:56,271] {processor.py:163} INFO - Started process (PID=65) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-20 00:01:56,291] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-20 00:01:56,294] {logging_mixin.py:109} INFO - [2023-12-20 00:01:56,294] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-20 00:01:56,498] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-20 00:02:07,631] {logging_mixin.py:109} INFO - [2023-12-20 00:02:07,631] {process_utils.py:237} INFO - Waiting up to 5 seconds for processes to exit...

@@ -1,0 +1,31 @@
+[2023-12-27 16:03:34,280] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: OpenWeather_ETL2.cargar_data manual__2023-12-27T16:03:17.446893+00:00 [queued]>
+[2023-12-27 16:03:34,302] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: OpenWeather_ETL2.cargar_data manual__2023-12-27T16:03:17.446893+00:00 [queued]>
+[2023-12-27 16:03:34,303] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-27 16:03:34,304] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-12-27 16:03:34,305] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-27 16:03:34,340] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cargar_data> on 2023-12-27 16:03:17.446893+00:00
+[2023-12-27 16:03:34,348] {standard_task_runner.py:52} INFO - Started process 5676 to run task
+[2023-12-27 16:03:34,357] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'OpenWeather_ETL2', 'cargar_data', 'manual__2023-12-27T16:03:17.446893+00:00', '--job-id', '88', '--raw', '--subdir', 'DAGS_FOLDER/ETL_OpenWeather2.py', '--cfg-path', '/tmp/tmpe_zd6p4m', '--error-file', '/tmp/tmpok918gc7']
+[2023-12-27 16:03:34,361] {standard_task_runner.py:80} INFO - Job 88: Subtask cargar_data
+[2023-12-27 16:03:34,527] {task_command.py:371} INFO - Running <TaskInstance: OpenWeather_ETL2.cargar_data manual__2023-12-27T16:03:17.446893+00:00 [running]> on host 44a36bef83ad
+[2023-12-27 16:03:34,662] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-27 16:03:34,776] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Furtado_Julio
+AIRFLOW_CTX_DAG_ID=OpenWeather_ETL2
+AIRFLOW_CTX_TASK_ID=cargar_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-27T16:03:17.446893+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-27T16:03:17.446893+00:00
+[2023-12-27 16:03:34,780] {logging_mixin.py:115} INFO - Cargando la data para la fecha: 2023-12-27 16
+[2023-12-27 16:03:34,840] {logging_mixin.py:115} INFO - (1, 18)
+[2023-12-27 16:03:34,925] {logging_mixin.py:115} INFO -                     dt          name  ...         sunrise_time          sunset_time
+0  2023-12-27 13:03:24  Buenos Aires  ...  2023-12-27 05:40:26  2023-12-27 20:08:14
+
+[1 rows x 18 columns]
+[2023-12-27 16:03:37,061] {logging_mixin.py:115} INFO - Carga completada en Redshift!
+[2023-12-27 16:03:37,063] {python.py:173} INFO - Done. Returned value was: None
+[2023-12-27 16:03:37,101] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=OpenWeather_ETL2, task_id=cargar_data, execution_date=20231227T160317, start_date=20231227T160334, end_date=20231227T160337
+[2023-12-27 16:03:37,149] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-12-27 16:03:37,237] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

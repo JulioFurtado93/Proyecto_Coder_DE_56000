@@ -1,0 +1,60 @@
+[2023-12-27 18:20:34,106] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: OpenWeather_ETL2.transformar_data manual__2023-12-27T18:20:23.365777+00:00 [queued]>
+[2023-12-27 18:20:34,130] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: OpenWeather_ETL2.transformar_data manual__2023-12-27T18:20:23.365777+00:00 [queued]>
+[2023-12-27 18:20:34,131] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-27 18:20:34,133] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-12-27 18:20:34,133] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-27 18:20:34,167] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): transformar_data> on 2023-12-27 18:20:23.365777+00:00
+[2023-12-27 18:20:34,177] {standard_task_runner.py:52} INFO - Started process 14705 to run task
+[2023-12-27 18:20:34,186] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'OpenWeather_ETL2', 'transformar_data', 'manual__2023-12-27T18:20:23.365777+00:00', '--job-id', '125', '--raw', '--subdir', 'DAGS_FOLDER/ETL_OpenWeather2.py', '--cfg-path', '/tmp/tmpl6mm_sxg', '--error-file', '/tmp/tmprbpb4jce']
+[2023-12-27 18:20:34,190] {standard_task_runner.py:80} INFO - Job 125: Subtask transformar_data
+[2023-12-27 18:20:34,405] {task_command.py:371} INFO - Running <TaskInstance: OpenWeather_ETL2.transformar_data manual__2023-12-27T18:20:23.365777+00:00 [running]> on host 44a36bef83ad
+[2023-12-27 18:20:34,541] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-27 18:20:34,639] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Furtado_Julio
+AIRFLOW_CTX_DAG_ID=OpenWeather_ETL2
+AIRFLOW_CTX_TASK_ID=transformar_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-27T18:20:23.365777+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-27T18:20:23.365777+00:00
+[2023-12-27 18:20:34,642] {logging_mixin.py:115} INFO - Transformando la data para la fecha: 2023-12-27 18
+[2023-12-27 18:20:34,698] {logging_mixin.py:115} WARNING - /opt/***/dags/ETL_OpenWeather2.py:98 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2023-12-27 18:20:34,703] {logging_mixin.py:115} WARNING - /opt/***/dags/ETL_OpenWeather2.py:99 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2023-12-27 18:20:34,709] {logging_mixin.py:115} WARNING - /opt/***/dags/ETL_OpenWeather2.py:100 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2023-12-27 18:20:34,715] {logging_mixin.py:115} WARNING - /opt/***/dags/ETL_OpenWeather2.py:103 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2023-12-27 18:20:34,720] {logging_mixin.py:115} WARNING - /opt/***/dags/ETL_OpenWeather2.py:104 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2023-12-27 18:20:34,729] {logging_mixin.py:115} WARNING - /opt/***/dags/ETL_OpenWeather2.py:105 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2023-12-27 18:20:34,735] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/pandas/core/frame.py:5047 SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2023-12-27 18:20:34,755] {logging_mixin.py:115} INFO - valor extraido: 29.9
+[2023-12-27 18:20:34,805] {python.py:173} INFO - Done. Returned value was: None
+[2023-12-27 18:20:34,852] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=OpenWeather_ETL2, task_id=transformar_data, execution_date=20231227T182023, start_date=20231227T182034, end_date=20231227T182034
+[2023-12-27 18:20:34,918] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-12-27 18:20:35,031] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
